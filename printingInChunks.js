@@ -12,7 +12,7 @@ function getAndPrintHTMLChunks() {
     response.setEncoding('utf8');
 
     response.on('data', function(data) {
-      console.log("Received chunk: ", data);
+      console.log("Received chunk: ", data, "\n");
     })
   })
 }
